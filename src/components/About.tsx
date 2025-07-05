@@ -37,11 +37,11 @@ const About = () => {
               {personal.description}
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm passionate about creating exceptional user experiences and building scalable, 
+              {`I'm passionate about creating exceptional user experiences and building scalable, 
               maintainable applications. With years of experience in modern web technologies, 
               I specialize in React, Next.js, and TypeScript, always staying up-to-date with 
-              the latest industry trends and best practices.
-            </p>
+              the latest industry trends and best practices.`}
+              </p>
             
             <div className="grid grid-cols-2 gap-4 pt-6">
               <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react';
 import { getPersonalInfo } from '@/lib/portfolio';
 import Image from 'next/image';
@@ -109,7 +109,7 @@ const Hero = () => {
             className="mb-6"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-              Hi, I'm{' '}
+              Hi, I&apos;m{' '}
               <span className="gradient-text">{personal.name}</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-600 dark:text-gray-300 mb-6">
