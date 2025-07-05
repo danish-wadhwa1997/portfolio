@@ -1,0 +1,145 @@
+{
+  "personal": {
+    "name": "Danish Wadhwa",
+    "title": "Senior Frontend Developer",
+    "tagline": "Results-driven Senior Frontend Developer with 6 years of experience in frontend architecture, user interface design, and performance optimization.",
+    "description": "Adept at leveraging React, Redux, JavaScript, and TypeScript to build scalable, high-performance web applications. Passionate about improving user engagement through intuitive UI/UX solutions and driving business growth with cutting-edge technology.",
+    "email": "danish.wadhwa1997@gmail.com",
+    "phone": "+91-9814525007",
+    "location": "Bengaluru, Karnataka, India",
+    "github": "https://github.com/danishwadhwa",
+    "linkedin": "https://www.linkedin.com/in/danish-wadhwa-677588153/",
+    "twitter": "",
+    "website": "",
+    "avatar": "/avatar.jpg"
+  },
+  "skills": {
+    "frontend": [
+      "React", "Redux", "React Native", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "SASS", "LESS", "Bootstrap", "Material-UI", "Tailwind CSS"
+    ],
+    "backend": [
+      "Node.js", "RESTful APIs", "GraphQL", "JSON"
+    ],
+    "tools": [
+      "Webpack", "Babel", "NPM", "Yarn", "Git", "GitHub", "GitLab", "Bitbucket", "AEM", "WordPress"
+    ],
+    "testing": [
+      "Jest", "React Testing Library", "WebDriver IO"
+    ]
+  },
+  "experience": [
+    {
+      "company": "InRhythm (Client: Goldman Sachs)",
+      "position": "Web Engineer L3",
+      "duration": "August 2024 – Present",
+      "location": "Bengaluru, India",
+      "description": "Automated testing processes, optimized website performance, led refactoring and transition to new internal frameworks, and improved UX for Marquee Portfolio Analytics.",
+      "achievements": [
+        "Automated testing processes to reduce manual efforts and improve release cycle efficiency.",
+        "Optimized website performance by restructuring UI code for better readability and efficiency.",
+        "Led refactoring and transition to new internal frameworks, enhancing scalability.",
+        "Improved UX, leading to a significant reduction in customer support inquiries."
+      ],
+      "technologies": ["React", "Redux", "TypeScript", "Jest", "Testing Library"]
+    },
+    {
+      "company": "UST Global (Clients: Hero, Virgin Australia)",
+      "position": "Developer II - Software Engineering",
+      "duration": "October 2021 – August 2024",
+      "location": "Bengaluru, India",
+      "description": "Worked on 3D Bike Configurator, Admin Panel, Buy flow UX, website revamp, component library, booking widget, A/B testing, and micro front-end optimization.",
+      "achievements": [
+        "Designed the Admin Panel configurator for 3D bike models using Three.js & Theatre.js.",
+        "Enhanced Buy flow UX for Hero Electric bikes, improving engagement.",
+        "Revamped website UI/UX for Virgin Australia, leading to a 15% increase in customer footfall.",
+        "Developed a common component library and unified design system.",
+        "Built a flight booking widget for third-party websites, increasing conversions by 20%.",
+        "Conducted A/B testing to refine UX based on real user insights.",
+        "Optimized micro front-end package sizes, improving performance."
+      ],
+      "technologies": ["React", "Redux", "Three.js", "Theatre.js", "TypeScript", "Jest", "SCSS"]
+    },
+    {
+      "company": "Infosys Ltd (Clients: Apple, Infosys, Allstate)",
+      "position": "Specialist Programmer",
+      "duration": "July 2019 – October 2021",
+      "location": "Pune, India",
+      "description": "Migrated legacy platforms to React, built analytics models, and developed operations management prototypes.",
+      "achievements": [
+        "Migrated Backbone.js/Marionette.js/Handlebars.js/Bootstrap platform to React.js/Redux/Bootstrap, improving performance by 30% (Apple).",
+        "Built analysis model to predict student education probability in US schools (Infosys).",
+        "Identified schools for scholarship programs based on Student Index (Infosys).",
+        "Built operations management prototype, reducing onboarding complexity by 70-80% (Allstate)."
+      ],
+      "technologies": ["React", "Redux", "Bootstrap", "Backbone.js", "Marionette.js", "Handlebars.js"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "FLUXX",
+      "description": "Developed an EV vehicle subscription system (B2B & B2C) using React Native. Led a 5-member team, ensuring on-time project delivery.",
+      "image": "",
+      "technologies": ["React Native", "Redux", "TypeScript"],
+      "github": "",
+      "live": "",
+      "features": [
+        "EV vehicle subscription system for B2B & B2C",
+        "Team leadership and project management",
+        "Mobile-first design"
+      ]
+    },
+    {
+      "title": "ScootEV (Bicle)",
+      "description": "Designed a ride operation system for rented vehicles. Integrated BLE device connectivity and QR scanning for seamless user experience.",
+      "image": "",
+      "technologies": ["React Native", "BLE", "QR Code"],
+      "github": "",
+      "live": "https://play.google.com/store/apps/details?id=com.bicle",
+      "features": [
+        "Ride operation system for rentals",
+        "BLE device connectivity",
+        "QR scanning integration"
+      ]
+    },
+    {
+      "title": "Mera Family Farmer",
+      "description": "Built an organic grocery delivery app with subscription and a la carte models using React Native, Context API.",
+      "image": "",
+      "technologies": ["React Native", "Context API"],
+      "github": "https://github.com/jps1001/MeFF-React-Native",
+      "live": "",
+      "features": [
+        "Organic grocery delivery",
+        "Subscription and a la carte models",
+        "Mobile-first experience"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Computer Science Engineering",
+      "school": "Jaypee University of Information Technology, Solan, Himachal Pradesh, India",
+      "duration": "2015 - 2019",
+      "description": "CGPA: 8.0/10"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Published Chapter: Encyclopedia of Criminal Activities and the Deep Web - Volume 3 (IGI Global, 2020)",
+      "issuer": "IGI Global",
+      "date": "2020"
+    },
+    {
+      "name": "The Emerging Threats of Web Scraping to Web Applications Security and Their Defense Mechanism",
+      "issuer": "IGI Global",
+      "date": "2020"
+    }
+  ],
+  "contact": {
+    "email": "danish.wadhwa1997@gmail.com",
+    "phone": "+91-9814525007",
+    "linkedin": "https://www.linkedin.com/in/danish-wadhwa-677588153/",
+    "github": "https://github.com/danishwadhwa",
+    "twitter": ""
+  }
+} 
