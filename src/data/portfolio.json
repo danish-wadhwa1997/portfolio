@@ -7,7 +7,7 @@
     "email": "danish.wadhwa1997@gmail.com",
     "phone": "+91-9814525007",
     "location": "Bengaluru, Karnataka, India",
-    "github": "https://github.com/danishwadhwa",
+    "github": "https://github.com/danish-wadhwa1997",
     "linkedin": "https://www.linkedin.com/in/danish-wadhwa-677588153/",
     "twitter": "",
     "website": "",
@@ -15,10 +15,10 @@
   },
   "skills": {
     "frontend": [
-      "React", "Redux", "React Native", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "SASS", "LESS", "Bootstrap", "Material-UI", "Tailwind CSS"
+      "React", "Redux", "React Native", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "SCSS", "LESS", "Bootstrap", "Material-UI", "Tailwind CSS"
     ],
     "backend": [
-      "Node.js", "RESTful APIs", "GraphQL", "JSON"
+      "Node.js", "RESTful APIs", "GraphQL"
     ],
     "tools": [
       "Webpack", "Babel", "NPM", "Yarn", "Git", "GitHub", "GitLab", "Bitbucket", "AEM", "WordPress"
@@ -40,7 +40,8 @@
         "Led refactoring and transition to new internal frameworks, enhancing scalability.",
         "Improved UX, leading to a significant reduction in customer support inquiries."
       ],
-      "technologies": ["React", "Redux", "TypeScript", "Jest", "Testing Library"]
+      "technologies": ["React", "Redux", "TypeScript", "Jest", "Testing Library"],
+      "liveUrl": ""
     },
     {
       "company": "UST Global (Clients: Hero, Virgin Australia)",
@@ -57,7 +58,8 @@
         "Conducted A/B testing to refine UX based on real user insights.",
         "Optimized micro front-end package sizes, improving performance."
       ],
-      "technologies": ["React", "Redux", "Three.js", "Theatre.js", "TypeScript", "Jest", "SCSS"]
+      "technologies": ["React", "Redux", "Three.js", "Theatre.js", "TypeScript", "Jest", "SCSS"],
+      "liveUrl": "https://www.heromotocorp.com/en-in/motorcycles/performance/xtreme-125r/configurator.html"
     },
     {
       "company": "Infosys Ltd (Clients: Apple, Infosys, Allstate)",
@@ -80,8 +82,7 @@
       "description": "Developed an EV vehicle subscription system (B2B & B2C) using React Native. Led a 5-member team, ensuring on-time project delivery.",
       "image": "",
       "technologies": ["React Native", "Redux", "TypeScript"],
-      "github": "",
-      "live": "",
+      "github": "https://github.com/danish-wadhwa1997/Fluxx-React-Native-App",
       "features": [
         "EV vehicle subscription system for B2B & B2C",
         "Team leadership and project management",
@@ -93,8 +94,8 @@
       "description": "Designed a ride operation system for rented vehicles. Integrated BLE device connectivity and QR scanning for seamless user experience.",
       "image": "",
       "technologies": ["React Native", "BLE", "QR Code"],
-      "github": "",
-      "live": "https://play.google.com/store/apps/details?id=com.bicle",
+      "github": "https://github.com/danish-wadhwa1997/Bicle-Reaact-Native",
+      "live": "",
       "features": [
         "Ride operation system for rentals",
         "BLE device connectivity",
@@ -106,8 +107,7 @@
       "description": "Built an organic grocery delivery app with subscription and a la carte models using React Native, Context API.",
       "image": "",
       "technologies": ["React Native", "Context API"],
-      "github": "https://github.com/jps1001/MeFF-React-Native",
-      "live": "",
+      "github": "https://github.com/danish-wadhwa1997/MeFF-React-Native",
       "features": [
         "Organic grocery delivery",
         "Subscription and a la carte models",
@@ -139,7 +139,6 @@
     "email": "danish.wadhwa1997@gmail.com",
     "phone": "+91-9814525007",
     "linkedin": "https://www.linkedin.com/in/danish-wadhwa-677588153/",
-    "github": "https://github.com/danishwadhwa",
-    "twitter": ""
+    "github": "https://github.com/danish-wadhwa1997"
   }
 } 

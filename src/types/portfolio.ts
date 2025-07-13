@@ -28,6 +28,7 @@ export interface Experience {
   description: string;
   achievements: string[];
   technologies: string[];
+  liveUrl?: string;
 }
 
 export interface Project {

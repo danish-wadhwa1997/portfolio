@@ -112,17 +112,19 @@ const Projects = () => {
 
                 {/* Project Links */}
                 <div className="flex gap-3">
-                  <motion.a
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm font-medium"
-                  >
-                    <ExternalLink size={16} />
-                    Live Demo
-                  </motion.a>
+                  {project.live && (
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm font-medium"
+                    >
+                      <ExternalLink size={16} />
+                      Live Demo
+                    </motion.a>
+                  )}
                   
                   <motion.a
                     whileHover={{ scale: 1.05 }}
