@@ -50,7 +50,8 @@ const About = () => {
               </div>
               <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
                 <h4 className="font-semibold text-gray-900 dark:text-white">Experience</h4>
-                <p className="text-gray-600 dark:text-gray-300">5+ Years</p>
+                <p className="text-gray-600 dark:text-gray-300">{personal.experience}</p>
+                {/* <p className="text-gray-600 dark:text-gray-300">5+ Years</p> */}
               </div>
               <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
                 <h4 className="font-semibold text-gray-900 dark:text-white">Projects</h4>

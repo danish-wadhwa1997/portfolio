@@ -11,6 +11,7 @@ export interface Personal {
   twitter: string;
   website: string;
   avatar?: string;
+  experience: string;
 }
 
 export interface SkillItem {
