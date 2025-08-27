@@ -31,93 +31,30 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Blurred Avatar Background - only render after mount to avoid hydration mismatch */}
-      {mounted && personal.avatar && (
-        <motion.div
-          aria-hidden
-          className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none"
-          style={{ opacity }}
-        >
-          <Image
-            src={personal.avatar}
-            alt="avatar background"
-            width={600}
-            height={600}
-            className="rounded-full object-cover blur-2xl select-none"
-            style={{ filter: `blur(${blur}px)`, opacity }}
-            draggable={false}
-            priority
-          />
-        </motion.div>
-      )}
-
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 z-10"></div>
-      {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden z-10">
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            rotate: [0, 180, 360],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-          className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full opacity-10 blur-3xl"
-        />
-        <motion.div
-          animate={{
-            scale: [1.2, 1, 1.2],
-            rotate: [360, 180, 0],
-          }}
-          transition={{
-            duration: 25,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-          className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-10 blur-3xl"
-        />
-      </div>
-
+  
       <div className="container-max section-padding relative z-20">
+        {/* 3D Particles Background using tsParticles (react-tsparticles) */}
         <div className="text-center max-w-4xl mx-auto">
-          {/* Avatar Foreground (optional, can be commented out if only background is needed) */}
-          {/* {personal.avatar && (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7 }}
-              className="flex justify-center mb-6"
-            >
-              <Image
-                src={personal.avatar}
-                alt={personal.name + ' avatar'}
-                width={128}
-                height={128}
-                className="rounded-full border-4 border-white dark:border-gray-800 shadow-lg object-cover w-32 h-32"
-                priority
-              />
-            </motion.div>
-          )} */}
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="mb-6"
           >
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-              Hi, I&apos;m{' '}
-              <span className="gradient-text">{personal.name}</span>
-            </h1>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-600 dark:text-gray-300 mb-6">
-              {personal.title}
-            </h2>
-            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-              {personal.tagline}
-            </p>
+            <div className="relative inline-block px-4 sm:px-6 py-4">
+              {/* Localized overlay behind text only */}
+              <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-b from-white/35 via-white/15 to-transparent dark:from-gray-900/45 dark:via-gray-900/25 dark:to-transparent supports-[backdrop-filter]:backdrop-blur-sm"></div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]">
+                Hi, I&apos;m{' '}
+                <span className="gradient-text">{personal.name}</span>
+              </h1>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-600 dark:text-gray-300 mb-6 drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]">
+                {personal.title}
+              </h2>
+              <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-2 max-w-2xl mx-auto leading-relaxed drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]">
+                {personal.tagline}
+              </p>
+            </div>
           </motion.div>
 
           <motion.div
@@ -170,39 +107,34 @@ const Hero = () => {
               href={personal.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors duration-300"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300"
             >
               <Linkedin size={24} />
             </motion.a>
-            
+
             <motion.a
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}
               href="https://drive.google.com/file/d/1MJ10TR22VrH4UtHAGvFiK0ygpYMUROwd/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-green-600 transition-colors duration-300"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300 flex items-center gap-2"
             >
-              <Download size={24} />
+              <Download size={22} />
+              <span>Resume</span>
             </motion.a>
           </motion.div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll Indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        transition={{ duration: 0.8, delay: 0.6 }}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-gray-600 dark:text-gray-400 z-20"
       >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="text-gray-400 dark:text-gray-600"
-        >
-          <ArrowDown size={24} />
-        </motion.div>
+        <ArrowDown size={24} className="animate-bounce" />
       </motion.div>
     </section>
   );
