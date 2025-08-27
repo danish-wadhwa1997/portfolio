@@ -13,11 +13,16 @@ export interface Personal {
   avatar?: string;
 }
 
+export interface SkillItem {
+  name: string;
+  level: number; // 0-100
+}
+
 export interface Skills {
-  frontend: string[];
-  backend: string[];
-  tools: string[];
-  testing: string[];
+  frontend: SkillItem[];
+  backend: SkillItem[];
+  tools: SkillItem[];
+  testing: SkillItem[];
 }
 
 export interface Experience {

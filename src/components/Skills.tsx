@@ -56,16 +56,16 @@ const Skills = () => {
                   >
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-gray-700 dark:text-gray-300 font-medium group-hover:text-gray-900 dark:group-hover:text-white transition-colors duration-200">
-                        {skill}
+                        {skill.name}
                       </span>
                       <span className="text-sm text-gray-500 dark:text-gray-400">
-                        {Math.floor(Math.random() * 30) + 70}%
+                        {skill.level}%
                       </span>
                     </div>
                     <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2 overflow-hidden">
                       <motion.div
                         initial={{ width: 0 }}
-                        whileInView={{ width: `${Math.floor(Math.random() * 30) + 70}%` }}
+                        whileInView={{ width: `${skill.level}%` }}
                         transition={{ duration: 1, delay: (categoryIndex * 0.2) + (skillIndex * 0.1) + 0.3 }}
                         viewport={{ once: true }}
                         className={`h-2 rounded-full bg-gradient-to-r ${category.color}`}
