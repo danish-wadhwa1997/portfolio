@@ -1,27 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react';
 import { getPersonalInfo } from '@/lib/portfolio';
-import Image from 'next/image';
 
 const Hero = () => {
   const personal = getPersonalInfo();
-  const [scrollY, setScrollY] = useState(0);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  // Blur and opacity effect based on scroll
-  const blur = Math.min(40, scrollY / 10 + 10); // max 40px
-  const opacity = Math.max(0.2, 1 - scrollY / 400); // min 0.2
-
+  
   const scrollToAbout = () => {
     const element = document.querySelector('#about');
     if (element) {
