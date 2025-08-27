@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, Twitter, Phone } from 'lucide-react';
+import { Mail, Linkedin, Github, Phone } from 'lucide-react';
 import { getContact } from '@/lib/portfolio';
 
 const Contact = () => {
@@ -67,16 +67,6 @@ const Contact = () => {
             className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-300"
           >
             <Github size={28} />
-          </motion.a>
-          <motion.a
-            whileHover={{ scale: 1.1, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            href={contact.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 dark:text-blue-300 hover:text-blue-600 dark:hover:text-blue-200 transition-colors duration-300"
-          >
-            <Twitter size={28} />
           </motion.a>
         </div>
       </div>
