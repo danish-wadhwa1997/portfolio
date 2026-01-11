@@ -66,7 +66,13 @@
         "Led refactoring and transition to new internal frameworks, enhancing scalability.",
         "Improved UX, leading to a significant reduction in customer support inquiries."
       ],
-      "technologies": ["React", "Redux", "TypeScript", "Jest", "Testing Library"],
+      "technologies": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "Jest",
+        "Testing Library"
+      ],
       "liveUrl": ""
     },
     {
@@ -84,7 +90,15 @@
         "Conducted A/B testing to refine UX based on real user insights.",
         "Optimized micro front-end package sizes, improving performance."
       ],
-      "technologies": ["React", "Redux", "Three.js", "Theatre.js", "TypeScript", "Jest", "SCSS"],
+      "technologies": [
+        "React",
+        "Redux",
+        "Three.js",
+        "Theatre.js",
+        "TypeScript",
+        "Jest",
+        "SCSS"
+      ],
       "liveUrl": "https://www.heromotocorp.com/en-in/motorcycles/performance/xtreme-125r/configurator.html"
     },
     {
@@ -99,10 +113,55 @@
         "Identified schools for scholarship programs based on Student Index (Infosys).",
         "Built operations management prototype, reducing onboarding complexity by 70-80% (Allstate)."
       ],
-      "technologies": ["React", "Redux", "Bootstrap", "Backbone.js", "Marionette.js", "Handlebars.js"]
+      "technologies": [
+        "React",
+        "Redux",
+        "Bootstrap",
+        "Backbone.js",
+        "Marionette.js",
+        "Handlebars.js"
+      ]
     }
   ],
   "projects": [
+    {
+      "title": "Sustain Buddy Reporting",
+      "description": "Enterprise platform for aviation carbon compliance reporting, automating validation and report generation for multiple international emissions schemes (CORSIA, EU ETS, UK ETS, CH ETS, ReFuelEU).",
+      "image": "",
+      "technologies": ["React", "Redux", "TypeScript", "Flask", "Python","Firebase"],
+      "live": "https://reporting.sustainbuddy.com",
+      "features": [
+        "Built a multi-scheme compliance engine supporting 5+ international aviation emissions standards with scheme-specific validation rules and automated Excel report generation",
+        "Developed an AI-powered SQL chatbot using RAG architecture that converts natural language queries to SQL, enabling non-technical users to analyze flight operations data in real time",
+        "Implemented a 9-phase validation pipeline processing thousands of flight records with automated error detection, categorization, and resolution workflows, reducing manual review time by 80%",
+        "Architected a scalable backend with Firebase authentication, Firestore for metadata, DuckDB for in-memory SQL analytics, and Flask REST APIs serving 50+ endpoints with rate limiting and input validation",
+        "Created an intuitive React frontend with drag-and-drop file uploads, real-time validation feedback, paginated error management, and interactive data visualization components",
+        "Integrated external APIs (CERT estimation service) for automated CO₂ emissions gap filling, enabling accurate compliance reporting even with incomplete data",
+        "Designed a session-based chat system with isolated DuckDB instances per project, enabling concurrent multi-user data analysis without conflicts"
+      ]
+    },
+    {
+      "title": "Hopp In",
+      "description": "Full-stack ride-sharing mobile and web application enabling users to share rides for airport and intercity trips, reducing travel costs and environmental impact.",
+      "image": "",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "React Query",
+        "Zustand",
+        "Radix UI"
+      ],
+      "live": "https://www.hopp-in.com",
+      "features": [
+        "Dual-mode ride sharing: Users can find or offer rides for airport and outstation trips with real-time matching",
+        "Real-time communication: WebSocket-based chat for trip coordination with typing indicators and message read receipts",
+        "Smart trip discovery: Advanced filtering (date, time, vehicle type, female-only options) with Google Maps integration",
+        "Seat request management: Approval workflow for offer rides with real-time notifications",
+        "Cross-platform mobile app: Native iOS and Android apps built with Capacitor, sharing codebase with web"
+      ]
+    },
     {
       "title": "FLUXX",
       "description": "Developed an EV vehicle subscription system (B2B & B2C) using React Native. Led a 5-member team, ensuring on-time project delivery.",
@@ -151,12 +210,7 @@
   ],
   "certifications": [
     {
-      "name": "Published Chapter: Encyclopedia of Criminal Activities and the Deep Web - Volume 3 (IGI Global, 2020)",
-      "issuer": "IGI Global",
-      "date": "2020"
-    },
-    {
-      "name": "The Emerging Threats of Web Scraping to Web Applications Security and Their Defense Mechanism",
+      "name": "Published Chapter in Encyclopedia of Criminal Activities and the Deep Web: The Emerging Threats of Web Scraping to Web Applications Security and Their Defense Mechanism - Volume 3 (IGI Global, 2020)",
       "issuer": "IGI Global",
       "date": "2020"
     }
@@ -167,4 +221,4 @@
     "linkedin": "https://www.linkedin.com/in/danish-wadhwa-677588153/",
     "github": "https://github.com/danish-wadhwa1997"
   }
-} 
+}
